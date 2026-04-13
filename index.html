@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HummingbirdHQ.org | Advancing Women with AI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #050b1f; /* Deep navy from the logo */
+            --text-white: #ffffff;
+            --accent-blue: #4a90e2;
+            --secondary-blue: #1e3a8a;
+        }
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-white);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        /* Subtle animated background to mimic AI connectivity */
+        .bg-glow {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(74, 144, 226, 0.15) 0%, rgba(5, 11, 31, 0) 70%);
+            transform: translate(-50%, -50%);
+            z-index: -1;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 800px;
+            padding: 20px;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        .logo-container img {
+            max-width: 320px;
+            height: auto;
+            margin-bottom: 30px;
+            filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.1));
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+
+        .status-box {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 12px;
+            backdrop-filter: blur(10px);
+        }
+
+        .status-box h2 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+
+        .email-form {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        input[type="email"] {
+            padding: 12px 20px;
+            border-radius: 6px;
+            border: 1px solid var(--secondary-blue);
+            background: #0a1631;
+            color: white;
+            width: 280px;
+            outline: none;
+        }
+
+        button {
+            padding: 12px 30px;
+            border-radius: 6px;
+            border: none;
+            background: linear-gradient(90deg, #4facfe 0%, #00f2fe 100%);
+            color: #050b1f;
+            font-weight: 700;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 242, 254, 0.4);
+        }
+
+        footer {
+            position: absolute;
+            bottom: 30px;
+            font-size: 0.8rem;
+            opacity: 0.6;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 1.8rem; }
+            input[type="email"] { width: 100%; }
+            button { width: 100%; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="bg-glow"></div>
+
+    <div class="container">
+        <div class="logo-container">
+            <img src="hummingbirdhq-logo.jpg" alt="HummingbirdHQ.org Logo">
+        </div>
+
+        <div class="status-box">
+            <h2>The Future of Empowerment is Loading.</h2>
+        
+
+        <footer>
+            &copy; 2026 HummingbirdHQ.org. All rights reserved.
+        </footer>
+    </div>
+
+</body>
+</html>
